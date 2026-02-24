@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  # MongoDB Database
+ 
   mongodb:
     image: mongo:6.0
     container_name: mongodb
@@ -15,7 +15,7 @@ services:
     networks:
       - mean-network
 
-  # Backend Node.js API
+  
   backend:
     image: ${DOCKER_USERNAME}/mean-app-backend:latest
     container_name: backend
@@ -32,7 +32,7 @@ services:
     networks:
       - mean-network
 
-  # Frontend Angular Application
+  
   frontend:
     image: ${DOCKER_USERNAME}/mean-app-frontend:latest
     container_name: frontend
