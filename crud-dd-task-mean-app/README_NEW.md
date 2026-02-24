@@ -30,16 +30,16 @@ This application manages a collection of tutorials with full CRUD (Create, Read,
 - **Published Status**: Boolean flag
 
 ### Key Capabilities:
-✅ Create new tutorials  
-✅ View all tutorials  
-✅ Update existing tutorials  
-✅ Delete tutorials  
-✅ Search tutorials by title  
-✅ Filter by published status  
+ Create new tutorials  
+ View all tutorials  
+ Update existing tutorials  
+ Delete tutorials  
+ Search tutorials by title  
+ Filter by published status  
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### Application Features:
 - RESTful API backend with Express.js
@@ -49,12 +49,12 @@ This application manages a collection of tutorials with full CRUD (Create, Read,
 - Responsive UI design
 
 ### DevOps Features:
-- 🐳 **Dockerized** - Both frontend and backend containerized
-- 🔄 **CI/CD Pipeline** - Automated deployment with GitHub Actions
-- ☁️ **Cloud Deployed** - Running on Ubuntu VM
-- 🔒 **Nginx Reverse Proxy** - Secure access on port 80
-- 📦 **Docker Hub** - Automated image builds and storage
-- 🔧 **Auto Deployment** - Push to GitHub triggers auto-deploy
+- **Dockerized** - Both frontend and backend containerized
+- **CI/CD Pipeline** - Automated deployment with GitHub Actions
+- **Cloud Deployed** - Running on Ubuntu VM
+- **Nginx Reverse Proxy** - Secure access on port 80
+- **Docker Hub** - Automated image builds and storage
+- **Auto Deployment** - Push to GitHub triggers auto-deploy
 
 ---
 
@@ -134,7 +134,7 @@ Developer → Git Push → GitHub → GitHub Actions
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Prerequisites:
 - Docker & Docker Compose installed
@@ -180,7 +180,7 @@ docker-compose up --build
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Build and Push Docker Images:
 
@@ -355,11 +355,7 @@ sudo nginx -t
 
 ---
 
-## 🤝 Contributing
 
-This is a DevOps assignment project. Feel free to fork and adapt for your own use.
-
----
 
 ## 📝 Project Structure
 
@@ -405,41 +401,4 @@ crud-dd-task-mean-app/
 
 ---
 
-## 📜 License
 
-This project is created for educational purposes as part of a DevOps internship assignment.
-
----
-
-## 🔗 Links
-
-- **GitHub Repository**: [your-repo-url]
-- **Docker Hub Backend**: [docker.io/username/mean-app-backend]
-- **Docker Hub Frontend**: [docker.io/username/mean-app-frontend]
-- **Live Application**: [http://your-vm-ip]
-
----
-
-## 👤 Author
-
-**Your Name**
-- DevOps Internship Assignment
-- Date: February 24, 2026
-
----
-
-## 🏆 Assignment Requirements Completed
-
-✅ Repository Setup with complete code  
-✅ Dockerfiles for frontend and backend  
-✅ Docker images pushed to Docker Hub  
-✅ Ubuntu VM deployment with Docker Compose  
-✅ MongoDB setup (Docker container)  
-✅ CI/CD pipeline with GitHub Actions  
-✅ Nginx reverse proxy on port 80  
-✅ Comprehensive documentation with screenshots  
-✅ Infrastructure kept running for demo  
-
----
-
-**Note**: Remember to add your actual screenshots in the `screenshots/` directory and update the links accordingly!
