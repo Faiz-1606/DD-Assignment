@@ -1,12 +1,10 @@
 # Build and Push Docker Images to Docker Hub
 # Run this script before setting up CI/CD
 
-
-
-
-$DOCKER_USERNAME = "faiz72043"  
-$BACKEND_IMAGE = "${faiz72043}/mean-app-backend"
-$FRONTEND_IMAGE = "${faiz72043}/mean-app-frontend"
+# Configuration
+$DOCKER_USERNAME = "faiz72043"
+$BACKEND_IMAGE = "${DOCKER_USERNAME}/mean-app-backend"
+$FRONTEND_IMAGE = "${DOCKER_USERNAME}/mean-app-frontend"
 
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "Building and Pushing Docker Images" -ForegroundColor Cyan
@@ -80,8 +78,4 @@ Write-Host "Your images are now available at:" -ForegroundColor White
 Write-Host "  • https://hub.docker.com/r/${DOCKER_USERNAME}/mean-app-backend" -ForegroundColor Cyan
 Write-Host "  • https://hub.docker.com/r/${DOCKER_USERNAME}/mean-app-frontend" -ForegroundColor Cyan
 Write-Host ""
-Write-Host "Next Steps:" -ForegroundColor Yellow
-Write-Host "1. Add GitHub Secrets (see CI_CD_SETUP.md)" -ForegroundColor White
-Write-Host "2. Push code to GitHub" -ForegroundColor White
-Write-Host "3. Watch CI/CD pipeline run automatically" -ForegroundColor White
-Write-Host ""
+
